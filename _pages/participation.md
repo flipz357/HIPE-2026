@@ -5,7 +5,7 @@ permalink: participation
 
 ## Registration
 
-CLEF lab registration open on TBD and closes on TBD ([registration link](https://clef2022-labs-registration.dei.unipd.it/)).
+CLEF lab registration open on November 17, 2025 and closes on April 23, 2026.
 
 ## Questions and further Information
 
