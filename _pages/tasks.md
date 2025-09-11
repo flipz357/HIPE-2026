@@ -91,4 +91,4 @@ Details and links will be added here once released.
 
 ## Questions?
 
-Please contact the [organizing team](/organizers) or post to the [mailing list](https://groups.google.com/g/hipe-2026).
+Please post to the [mailing list](https://groups.google.com/g/hipe-2026).
