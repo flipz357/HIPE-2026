@@ -7,7 +7,7 @@ permalink: about
 
 Building on the success of HIPE-2020 and HIPE-2022, the third edition of the HIPE shared task explores the extraction of **person–place relations** in **multilingual historical documents**. Participants will develop systems that help uncover implicit and explicit connections between people and places across time, contributing to research in historical knowledge graphs, spatial humanities, and biographical reconstruction.
 
-For full details on task setup, data, and evaluation criteria, please see the [Tasks & Data](/tasks) page.
+For full details on task setup, data, and evaluation criteria, please see the [Tasks & Data](/HIPE-2026/tasks) page.
 
 ---
 
