@@ -5,7 +5,21 @@ permalink: about
 
 ### HIPE-2026: Evaluating Accurate and Efficient Person–Place Relation Extraction
 
-Building on the success of HIPE-2020 and HIPE-2022, the third edition of the HIPE shared task explores the extraction of **person–place relations** in **multilingual historical documents**. Participants will develop systems that help uncover implicit and explicit connections between people and places across time, contributing to research in historical knowledge graphs, spatial humanities, and biographical reconstruction.
+Building on the success of HIPE-2020 and HIPE-2022, the third edition of the HIPE shared
+task explores the extraction of **person–place relations** in **multilingual historical
+documents**. Participants will develop systems that help uncover implicit and explicit
+connections between people and places across time, contributing to research in
+historical knowledge graphs, spatial humanities, and biographical reconstruction.
+
+#### Challenges of the task
+
+Traditional simple co-occurence analysis is not good enough!
+![Example](/HIPE-2026/assets/images/churchill-hipe-2026-example.png)
+
+Systems must understand the text to determine whether a person was actually at a place, and if so, whether this was in the
+immediate context of the document or at some point in the past. This requires handling
+historical language variation, OCR noise, and limited context, as well as reasoning about
+temporal and geographical information.
 
 For full details on task setup, data, and evaluation criteria, please see the [Tasks & Data](/HIPE-2026/tasks) page.
 
