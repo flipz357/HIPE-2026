@@ -27,7 +27,7 @@ This design supports different downstream goals — from **spatial biographies**
 
 ## Input and Output Format
 
-Each document will be provided with:
+Each document will be provided as a JSON with:
 
 - Full article text (OCR with possible errors)
 - A list of **person entities** (de-duplicated by surface form or linked ID)
@@ -37,7 +37,7 @@ Each document will be provided with:
 Participants must return a classification for each possible `(person, place, relation)` triple using:
 
 - `true`: strong textual evidence supports the relation
-- `plausible`: plausible inference can be made from context
+- `probable`: plausible inference can be made from context
 - `false`: no evidence or explicitly contradicted
 
 ---
@@ -64,7 +64,7 @@ We will release two datasets for the task:
 
 ### 🧪 Development & Test Set A
 
-- Derived from the HIPE-2022 dataset
+- Derived mostly from the HIPE-2022 datasets
 - Languages: **French, German, English, Luxembourgish**
 - Contains manually validated relation labels for pre-annotated person/place entities
 - Includes metadata for temporal reasoning
@@ -73,9 +73,10 @@ We will release two datasets for the task:
 
 - Literary corpus from the **16th–18th century**
 - French-language texts annotated for NER and now enriched with relation labels
+  (restricted to the `at` relation type)
 - Designed to evaluate **domain generalization**
 
-All data will be released under **CC-BY 4.0** and distributed via **Zenodo**, with mirrored repositories and notebooks on **GitHub** and **Hugging Face**.
+All data will be released under **CC-BY 4.0** and distributed via **Zenodo**, with mirrored repositories on **GitHub**.
 
 ---
 
@@ -85,7 +86,7 @@ We will provide:
 
 - Input/output templates
 - Scoring script
-- A baseline system
+- A baseline system based on LLM prompting
 - Pre-built notebooks for data exploration
 
 Details and links will be added here once released.
