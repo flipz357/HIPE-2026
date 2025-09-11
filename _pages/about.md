@@ -3,46 +3,33 @@ title: HIPE-2026 Shared Task
 permalink: about
 ---
 
-### HIPE-2026: Evaluating Accurate and Efficient Person-Place Relation Extraction
+### HIPE-2026: Evaluating Accurate and Efficient Person–Place Relation Extraction
 
-Following the successful evaluation labs in 2020 and 2022 on named entity processing, the third edition of the HIPE shared task will focus on **Person-Place Relation Mining in Historical Documents**.
+Building on the success of HIPE-2020 and HIPE-2022, the third edition of the HIPE shared task explores the extraction of **person–place relations** in **multilingual historical documents**. Participants will develop systems that help uncover implicit and explicit connections between people and places across time, contributing to research in historical knowledge graphs, spatial humanities, and biographical reconstruction.
 
-The central question of HIPE-2026 is: **Who was where when?** Participants will develop systems to extract person-place relations from multilingual historical newspapers, a crucial step for building historical knowledge graphs, reconstructing biographies, and enabling new forms of spatial analysis.
+For full details on task setup, data, and evaluation criteria, please see the [Tasks & Data](/tasks) page.
 
-### The Task
-
-The task is framed as a three-way relation classification. For a given person and place in a document, systems must determine if a relation holds by assigning one of three labels: `true`, `probable`, or `false`. Two distinct relation types will be evaluated:
-
-- **`wasAt`**: Denotes whether the person was ever at the place at any time before the document's publication.
-- **`isAt`**: Denotes whether the person is at the place in the immediate context of the publication date.
+---
 
 ### Evaluation Profiles
 
-Recognizing the growing importance of computational costs, HIPE-2026 will feature two evaluation profiles:
+HIPE-2026 features two evaluation profiles:
 
-1.  **Accuracy Profile**: Rewarding the highest-performing systems to push the state-of-the-art.
-2.  **Efficiency Profile**: Promoting lightweight and scalable methods by considering a trade-off between accuracy, model size, and compute resources.
+1. **Accuracy Profile** – Focusing on system performance in relation classification.
+2. **Efficiency Profile** – Rewarding scalable, lightweight approaches considering model size and compute cost.
 
-A surprise dataset from a different domain will be used to evaluate how well systems generalize.
+An unseen dataset from a different domain will be included to test generalization.
+
+---
 
 ### Registration and Information
 
-More information on the schedule and registration will be available soon. For questions, please contact the organizers via our mailing list (link to be provided).
+More information on the schedule and registration will be available soon. For questions, please contact the organizers via our [mailing list](https://groups.google.com/g/hipe-2026).
 
 ---
 
 ### About the Previous Edition (HIPE-2022)
 
-HIPE-2022 was based on diverse datasets and aimed at confronting systems with the challenges of dealing with more languages, learning domain-specific entities, and adapting to diverse annotation tag sets.
+HIPE-2022 expanded the HIPE evaluation series by introducing multilingual corpora, more complex document types, and diverse annotation tagsets. Participants were challenged to build systems that could cope with OCR noise, partial knowledge base coverage, and historical language variation. See the [HIPE-2022 website](https://impresso.github.io/CLEF-HIPE-2022/) for details.
 
-The main **challenges** of the HIPE-2022 edition were:
-
-- Multilingual corpora from different countries: English, German (AU,DE,CH), French (CH,FR), Finnish, Swedish
-- Different document types (historical newspapers and classic commentaries)
-- Noisy OCR
-- Partial coverage of KBs with respect to historical entities
-- Different annotation tagsets
-
-### Registration and Mailing list
-
-Please mail to our [HIPE 2026 mailing list](https://groups.google.com/g/hipe-2026) for any questions.
+---
