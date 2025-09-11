@@ -7,24 +7,10 @@ permalink: tasks
 
 HIPE-2026 is a shared task on **person–place relation extraction** from **multilingual historical texts**. The goal is to assess whether a relation holds between a person and a place mentioned in a document — and to classify that relation with respect to its **temporal scope**.
 
-Participants are asked to build systems that, given a historical document and a set of entities, will classify all possible `(person, place)` pairs into one of **three evidence-based labels** for each of two relation types.
-
----
-
-## Input and Output Format
-
-Each document will be provided with:
-
-- Full article text (OCR-corrected where available)
-- A list of **person entities** (de-duplicated by surface form or linked ID)
-- A list of **place entities**
-- Metadata (e.g., document language, publication date)
-
-Participants must return a classification for each possible `(person, place, relation)` triple using:
-
-- `true`: strong textual evidence supports the relation
-- `probable`: plausible inference can be made from context
-- `false`: no evidence or explicitly contradicted
+Participants are asked to build systems that, given a historical document and a set of
+entities, will classify all possible `(person, place)` pairs into one of **three
+evidence-based labels** for each of two relation types. The task is designed to be
+tackled by generative AI systems/LLMs as well as more traditional classification approaches.
 
 ---
 
@@ -36,6 +22,23 @@ Two relation types are to be evaluated independently:
 - **`isAt`** – Is the person located at the place in the **immediate temporal context** of the document?
 
 This design supports different downstream goals — from **spatial biographies** to **historical event contextualization**.
+
+---
+
+## Input and Output Format
+
+Each document will be provided with:
+
+- Full article text (OCR with possible errors)
+- A list of **person entities** (de-duplicated by surface form or linked ID)
+- A list of **place entities**
+- Metadata (e.g., document language, publication date)
+
+Participants must return a classification for each possible `(person, place, relation)` triple using:
+
+- `true`: strong textual evidence supports the relation
+- `plausible`: plausible inference can be made from context
+- `false`: no evidence or explicitly contradicted
 
 ---
 
