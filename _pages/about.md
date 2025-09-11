@@ -11,6 +11,10 @@ documents**. Participants will develop systems that help uncover implicit and ex
 connections between people and places across time, contributing to research in
 historical knowledge graphs, spatial humanities, and biographical reconstruction.
 
+<div style="text-align: center;">
+  <img src="/HIPE-2026/assets/images/hipe-2026-motivation.png" alt="Motivation" />
+</div>
+
 #### Challenges of the task
 
 Traditional simple co-occurence analysis is not good enough!
