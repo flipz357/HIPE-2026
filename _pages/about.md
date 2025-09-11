@@ -24,7 +24,7 @@ An unseen dataset from a different domain will be included to test generalizatio
 
 ### Registration and Information
 
-More information on the schedule and registration will be available soon. For questions, please contact the organizers via our [mailing list](https://groups.google.com/g/hipe-2026).
+More information on the schedule and registration can be found on the [CLEF page](https://clef2026.clef-initiative.eu/). For questions, please contact the organizers via our [mailing list](https://groups.google.com/g/hipe-2026).
 
 ---
 
