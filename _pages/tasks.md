@@ -42,6 +42,94 @@ Participants must return a classification for each possible `(person, place, rel
 
 ---
 
+### Realistic Example from Historical Data
+
+This example illustrates a real instance of the HIPE-2026 task using an article from the _Gazette de Lausanne_ dated 1928-05-06. It involves multiple persons and places, various temporal scopes, and differing levels of textual evidence.
+
+---
+
+#### 📄 Article Context
+
+<table>
+  <thead>
+    <tr>
+      <th style="width: 50%; font-size: 0.9em;">🇫🇷 Original French OCR</th>
+      <th style="width: 50%; font-size: 0.9em;">🇬🇧 Automatic English Translation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="font-size: 0.8em;">
+        Pour les enfants sinistrés de Bulgarie et de Grèce, Mgr. Stéphane, archevêque de Sofia,
+        vient d’adresser à l’Union internationale de secours aux enfants une dépêche, où, après avoir
+        rendu hommage à cette institution, il s’exprime comme suit : La solidarité humaine se manifeste le plus
+        sensiblement dans les heures critiques. Le peuple bulgare est sincèrement reconnaissant envers tous ceux
+        qui, dans son épreuve actuelle, lui ont témoigné sympathie et aide. Dieu bénisse chaque effort qui
+        soulagera la souffrance, surtout celle des malheureux petits.
+
+        <br><br>
+
+        D’autre part, l’U.I.S.E. reçoit de sa déléguée la nouvelle qu’elle a pu assurer une distribution
+        quotidienne de pain à 3400 enfants dans les environs de Philippopoli et, dans la ville même,
+        de pain et de thé à 2500 enfants. En outre, elle a fourni des couvertures à l’hôpital de dix baraques
+        ouvert près de Philippopoli par le chef de la garnison de cette ville, le général Koutzeroff.
+
+        <br><br>
+
+        D’Athènes, le Dr Doxiadès, ancien ministre, président de la Ligue patriotique d’assistance aux enfants,
+        télégraphie à l’U.I.S.E. : Envisageant le danger auquel sont exposés les enfants de la population de Corinthe,
+        la Ligue patriotique fait appel aux généreux sentiments de l’Union pour aider et faciliter la bonne marche
+        de l’œuvre de secours entreprise.
+      </td>
+      <td style="font-size: 0.8em;">
+        For the children affected by disasters in Bulgaria and Greece, Mgr. Stéphane, Archbishop of Sofia,
+        wishes to address the International Union for Child Relief with a dispatch, in which, after paying tribute
+        to this institution, he expresses himself as follows: Human solidarity is most significantly manifested
+        in critical hours. The Bulgarian people are sincerely grateful to all those who, in its current ordeal,
+        have shown sympathy and assistance. God bless every effort that alleviates suffering, especially that
+        of the unfortunate little ones.
+
+        <br><br>
+
+        Furthermore, the I.U.C.R. receives news from its delegate that it has been able to ensure a daily
+        distribution of bread to 3,400 children in the vicinity of Philippopolis and, in the city itself,
+        bread and tea to 2,500 children. In addition, it has provided blankets to the ten-barrack hospital
+        opened near Philippopolis by the commander of the garrison of that city, General Koutzeroff.
+
+        <br><br>
+
+        From Athens, Dr. Doxiadès, former minister and president of the Patriotic League for Child Assistance,
+        telegraphs to the I.U.C.R.: Considering the danger to which the children of the population of Corinth
+        are exposed, the Patriotic League appeals to the generous sentiments of the Union to help and facilitate
+        the smooth progress of the relief work undertaken.
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+#### 🔑 Annotated Relation Table
+
+| Person                                                              | Place        | `at`  | `isAt` |
+| ------------------------------------------------------------------- | ------------ | ----- | ------ |
+| Mgr. Stéphane, archevêque de Sofia                                  | Bulgarie     | TRUE  | FALSE  |
+| Mgr. Stéphane, archevêque de Sofia                                  | Grèce        | FALSE | FALSE  |
+| Mgr. Stéphane, archevêque de Sofia                                  | Philippopoli | FALSE | FALSE  |
+| Mgr. Stéphane, archevêque de Sofia                                  | Athènes      | FALSE | FALSE  |
+| Mgr. Stéphane, archevêque de Sofia                                  | Corinthe     | FALSE | FALSE  |
+| Chef de la garnison de cette ville, le général Koutzeroff           | Bulgarie     | TRUE  | TRUE   |
+| Chef de la garnison de cette ville, le général Koutzeroff           | Grèce        | FALSE | FALSE  |
+| Chef de la garnison de cette ville, le général Koutzeroff           | Philippopoli | TRUE  | TRUE   |
+| Chef de la garnison de cette ville, le général Koutzeroff           | Athènes      | FALSE | FALSE  |
+| Chef de la garnison de cette ville, le général Koutzeroff           | Corinthe     | FALSE | FALSE  |
+| Dr. Doxiadès, ancien ministre, président de la Ligue patriotique... | Bulgarie     | FALSE | FALSE  |
+| Dr. Doxiadès, ancien ministre, président de la Ligue patriotique... | Grèce        | TRUE  | TRUE   |
+| Dr. Doxiadès, ancien ministre, président de la Ligue patriotique... | Philippopoli | FALSE | FALSE  |
+| Dr. Doxiadès, ancien ministre, président de la Ligue patriotique... | Athènes      | TRUE  | TRUE   |
+| Dr. Doxiadès, ancien ministre, président de la Ligue patriotique... | Corinthe     | FALSE | FALSE  |
+
+---
+
 ## Evaluation Profiles
 
 To reflect different research and application priorities, HIPE-2026 will offer two profiles:
