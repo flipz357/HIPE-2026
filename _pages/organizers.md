@@ -27,7 +27,7 @@ The HIPE-2026 lab is organized by an interdisciplinary team with expertise in na
 
 ## Partner Projects and Data Providers
 
-- [Impresso — _Media Monitoring of the Past_](https://impresso-project.ch))  
+- [Impresso — _Media Monitoring of the Past_](https://impresso-project.ch)  
   A research initiative dedicated to large-scale semantic enrichment of digitized historical newspapers.
 
 ---
