@@ -23,6 +23,9 @@ Two relation types are to be evaluated independently:
 
 This design supports different downstream goals — from **spatial biographies** to **historical event contextualization**.
 
+<div style="text-align: center;">
+  <img src="/HIPE-2026/assets/images/schema-temporalscope.png" alt="Motivation" style="width: 75%;"/>
+</div>
 ---
 
 ## Input and Output Format
