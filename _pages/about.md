@@ -21,7 +21,7 @@ Traditional simple co-occurence analysis is not good enough!
 ![Example](/HIPE-2026/assets/images/churchill-hipe-2026-example.png)
 
 Systems must understand the text to determine whether a person was actually at a place, and if so, whether this was in the
-immediate context of the document or at some point in the past. This requires handling
+immediate temporal context of the document's publication time, or at some point in the past. This requires handling
 historical language variation, OCR noise, and limited context, as well as reasoning about
 temporal and geographical information.
 
