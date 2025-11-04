@@ -133,6 +133,16 @@ This example illustrates a real instance of the HIPE-2026 task using an article 
 
 ---
 
+### Download Example Data
+
+Please download the Excel file below for seven more examples and specifications on the annotation scheme.
+
+<a href="assets/example_data/annotation_examples.xlsx" download class="btn btn-primary">
+  Download Examples
+</a>
+
+---
+
 ## Evaluation Profiles
 
 To reflect different research and application priorities, HIPE-2026 will offer two profiles:
