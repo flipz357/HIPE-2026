@@ -13,8 +13,8 @@ permalink: timeline
 
 * **17 Nov 2025 (Mon)**: Lab registration opens.  
 * **18 Nov 2025 (Tue)**: Competition announcement I (mailing lists + social media).
-* **10 Dec 2025 (Wed)**: Release of full training data; publication of Participation Guidelines. 
-* **19 Jan 2026 (Mon)**: Leaderboard release; submission format checker and scorer.
+* **10 Dec 2025 (Wed)**: Release of partial training data, with submission format checker and scorer; publication of Participation Guidelines. 
+* **19 Jan 2026 (Mon)**: Release of final training data.
 * **23 Apr 2026 (Thu)**: Lab registration closes.
 * **05 May 2026 (Tue)**: Test data release (10:00 CEST).  
 * **07 May 2026 (Thu)**: Participant run submission deadline.  
