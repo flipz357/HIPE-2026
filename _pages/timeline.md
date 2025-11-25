@@ -11,8 +11,7 @@ permalink: timeline
 
 ## Timeline
 
-* **17 Nov 2025 (Mon)**: Lab registration opens.  
-* **18 Nov 2025 (Tue)**: Competition announcement I (mailing lists + social media).
+* **17 Nov 2025 (Mon)**: Lab registration opens.
 * **10 Dec 2025 (Wed)**: Release of partial training data, with submission format checker and scorer; publication of Participation Guidelines. 
 * **19 Jan 2026 (Mon)**: Release of final training data.
 * **23 Apr 2026 (Thu)**: Lab registration closes.
@@ -29,7 +28,7 @@ permalink: timeline
 
 All times are CEST.
 
-Please also refer to the general timeline of CLEF 2026 for now: [CLEF 2026 Dates](https://clef2026.
+Please also refer to the general timeline of CLEF 2026 for now: [CLEF 2026 Dates](https://clef2026.clef-initiative.eu/dates/)
 
 
 ## Working Note Paper Instructions
