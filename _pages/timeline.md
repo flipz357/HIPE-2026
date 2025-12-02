@@ -16,14 +16,14 @@ permalink: timeline
 * **19 Jan 2026 (Mon)**: Release of final training data.
 * **23 Apr 2026 (Thu)**: Lab registration closes.
 * **05 May 2026 (Tue)**: Test data release (10:00 CEST).  
-* **07 May 2026 (Thu)**: Participant run submission deadline.  
+* **07 May 2026 (Thu)**: Participant system response submission deadline (20:00 CEST).  
 * **13 May 2026 (Wed)**: Publication of results and release of test data.  
 * **28 May 2026 (Thu)**: Submission of participant notebook paper.
 * **25 Jun 2026 (Thu)**: Notebook paper submission.  
 * **30 Jun 2026 (Tue)**: Notebook paper notification.  
 * **06 Jul 2026 (Mon)**: Notebook paper camera-ready version.  
 * **10 Jul 2026 (Fri)**: CLEF conference regular registration ends.  
-* **31 Aug 2026 (Mon)**: Late registration ends.  
+* **31 Aug 2026 (Mon)**: CLEF conference late registration ends.  
 * **21 Sep 2026 (Mon)**: CLEF 2026 Conference.  
 
 All times are CEST.
