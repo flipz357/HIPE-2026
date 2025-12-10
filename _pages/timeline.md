@@ -5,14 +5,16 @@ permalink: timeline
 
 
 <!--ts-->
-[Timeline](./timeline.md#timeline)    
+[Timeline](./timeline.md#timeline)
+[Guidelines](./timeline.md#guidelines)
 [Working Note Paper Instructions](./timeline.md#working-notes-instructions)
 <!--te-->
 
 ## Timeline
 
-* **17 Nov 2025 (Mon)**: Lab registration opens.
-* **19 Dec 2025 (Fri)**: Release of partial training data, with submission format checker and scorer; publication of Participation Guidelines. 
+* ~**17 Nov 2025 (Mon)**~: [Lab registration](https://clef2026.clef-initiative.eu/) opens. 
+* ~**3 Dec 2025 (Wed)**~: Release of [example data](https://github.com/hipe-eval/HIPE-2026-data/tree/main/data/newspapers/v0.9). Release of [Participation Guidelines](https://zenodo.org/records/17800136).
+* **19 Dec 2025 (Fri)**: Release of partial training data, with submission format checker and scorer. 
 * **19 Jan 2026 (Mon)**: Release of final training data.
 * **23 Apr 2026 (Thu)**: Lab registration closes.
 * **05 May 2026 (Tue)**: Test data release (10:00 CEST).  
@@ -30,6 +32,9 @@ All times are CEST.
 
 Please also refer to the general timeline of CLEF 2026 for now: [CLEF 2026 Dates](https://clef2026.clef-initiative.eu/dates/)
 
+## Guidelines
+
+We uploaded the guidelines to Zenodo. Here's [the link](https://zenodo.org/records/17800136).
 
 ## Working Note Paper Instructions
 
