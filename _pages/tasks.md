@@ -39,9 +39,9 @@ Each document will be provided as a JSON with:
 
 Participants must return a classification for each possible `(person, place, relation)` triple using:
 
-- `true`: strong textual evidence supports the relation
-- `probable`: plausible inference can be made from context
-- `false`: no evidence or explicitly contradicted
+- `TRUE`: strong textual evidence supports the relation
+- `PROBABLE`: plausible inference can be made from context
+- `FALSE`: no evidence or explicitly contradicted
 
 ---
 
