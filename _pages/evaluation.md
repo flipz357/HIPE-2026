@@ -5,7 +5,7 @@ permalink: evaluation
 
 ## Evaluation Infrastructure
 
-The HIPE-2026 evaluation infrastructure is designed to ensure fair, transparent, and reproducible assessment across both accuracy- and efficiency-focused system submissions. Participants will submit predictions on two blind test sets using a standardized format. Official scoring scripts will compute core classification metrics, using macro-averaged Recall (aka balanced accuracy) as the main measure (more details in our [guidelines](https://zenodo.org/records/17800136)).
+The HIPE-2026 evaluation infrastructure is designed to ensure fair, transparent, and reproducible assessment across both accuracy- and efficiency-focused system submissions. Participants will submit predictions on two blind test sets using a standardized format. The first data set comprises texts from the historical news domain, the second is a suprise test set for testing out-of-domain generalization. Official scoring scripts will compute core classification metrics, using macro-averaged Recall (aka balanced accuracy) as the main measure (more details in our [guidelines](https://zenodo.org/records/17800136)).
 
 Efficiency-related factors — such as model size and space usage — will be collected via metadata forms submitted by participants. These indicators will be used to rank systems within the efficiency profile, where cost-effective, scalable approaches are encouraged (more details in our [guidelines](https://zenodo.org/records/17800136)).
 
