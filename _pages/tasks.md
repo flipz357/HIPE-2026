@@ -145,7 +145,7 @@ Please download the Excel file below for seven more examples and specifications 
 
 ## Evaluation Profiles
 
-To reflect different research and application priorities, HIPE-2026 will offer two profiles:
+To reflect different research and application priorities, HIPE-2026 will offer three profiles:
 
 1. **Accuracy Profile**:  
    Ranking based on balanced accruracy (aka macro Recall) per relation type. 
