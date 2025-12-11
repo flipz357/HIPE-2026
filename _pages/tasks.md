@@ -148,7 +148,7 @@ Please download the Excel file below for seven more examples and specifications 
 To reflect different research and application priorities, HIPE-2026 will offer three profiles:
 
 1. **Accuracy Profile**:  
-   Ranking based on balanced accruracy (aka macro Recall) per relation type. 
+   Ranking based on macro-averaged Recall (aka balanced accuracy) per relation type. 
 
 2. **Efficiency Profile**:  
    Ranking based on a composite metric balancing accuracy with:
