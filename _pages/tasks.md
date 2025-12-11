@@ -148,7 +148,7 @@ Please download the Excel file below for seven more examples and specifications 
 To reflect different research and application priorities, HIPE-2026 will offer two profiles:
 
 1. **Accuracy Profile**:  
-   Ranking based on standard classification metrics (Precision, Recall, F1) per relation type.
+   Ranking based on balanced accruracy (aka macro Recall) per relation type. 
 
 2. **Efficiency Profile**:  
    Ranking based on a composite metric balancing accuracy with:
@@ -156,6 +156,11 @@ To reflect different research and application priorities, HIPE-2026 will offer t
    - Inference time
    - Hardware usage
    - Availability as open-source or low-cost system
+
+3. **Generalization Profile**:
+   Generalization accuracy assessment on the surprise Test Set B.
+
+Please find more details in the [Participation Guidelines](https://zenodo.org/records/17800136).
 
 ---
 
